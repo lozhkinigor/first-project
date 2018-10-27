@@ -5,39 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mobileapp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/first section.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <section class="first-section">
-        <header>
-            <h1>Mobileapp</h1>
-            <nav>
-                <ul>
-                    <li>home</li>
-                    <li>features</li>
-                    <li>team</li>
-                    <li>testimonials</li>
-                    <li>contact</li>
-                </ul>
-            </nav>
-        </header>
-        <article>
-            <h1>Introducing Mobileapp.</h1>
-            <h3>Maecenas vitae tellus sapien. Praesent </h3>
-            <ul>
-                <li>semper scelerisque tristique a enim</li>
-                <li>Integer ut mattis nulla, eget vehicula elit</li>
-                <li>Praesent rutrum ac nunc et</li>
-            </ul>
-        </article>
-        <form>
-            <button>Download</button>
-        </form>
-        <div>
-            <img src="">
+        <div >
+            <img src="images/first section/content/smallPhone.png" class="image_small-phone">
+            <img src="images/first section/content/bigphone.png" class="image_big-phone">
         </div>
-
+        <div class="wrapper_background-image first-section_size">
+            <div class="wrapper_flex wrapper__header_flex-center">
+                <header class="header_sized_style header__wrapper_flex wrapper_flex">
+                    <h1 class="logo logo_style">
+                        <a href="#">Mobileapp</a>
+                    </h1>
+                    <nav class="nav nav_style">
+                        <ul>
+                            <li>
+                                <a href="#">home</a>
+                            </li>
+                            <li>
+                                <a href="#">features</a>
+                            </li>
+                            <li>
+                                <a href="#">team</a>
+                            </li>
+                            <li>
+                                <a href="#">testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <article>
+                <div class="wrapper_flex wrapper__main-content_position"> 
+                <h1 class="caption_style">Introducing Mobileapp.</h1>
+                <h3 class="h3_style">Maecenas vitae tellus sapien. Praesent </h3>
+                <ul class="first-section-list_style">
+                    <li>semper scelerisque tristique a enim</li>
+                    <li>Integer ut mattis nulla, eget vehicula elit</li>
+                    <li>Praesent rutrum ac nunc et</li>
+                </ul>
+                </div>
+            </article>
+            <form class="">
+                <button class="wrapper__button_stylized wrapper_flex wrapper__button_flex">
+                    <img src="images/first section/content/download.png">
+                    Download
+                </button>
+            </form>
+        </div>    
     </section>
 </body>
 </html>

@@ -1,2 +1,103 @@
-body {
-  background: red; }
+.image_big-phone {
+  position: absolute;
+  top: 215px;
+  left: 62.34257%;
+  z-index: 1; }
+
+.image_small-phone {
+  position: absolute;
+  top: 280px;
+  left: 57.30479%;
+  z-index: 2; }
+
+.wrapper_background-image {
+  background-image: url("../images/first section/background/background-for-first-section.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.first-section_size {
+  width: 100%;
+  height: 760px; }
+
+.wrapper_flex {
+  display: flex; }
+
+.wrapper__header_flex-center {
+  justify-content: center; }
+
+.header__wrapper_flex {
+  align-items: center;
+  justify-content: space-between; }
+
+.header_sized_style {
+  width: 78%;
+  height: 81px;
+  background: #ffffff;
+  margin-top: 29px;
+  padding: 32px; }
+
+.logo_style a {
+  text-decoration: none;
+  color: #1ab798;
+  font-size: 30px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.2; }
+
+.nav_style {
+  font-size: 13px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 38px; }
+  .nav_style li {
+    display: inline-block; }
+    .nav_style li a {
+      text-decoration: none;
+      color: #969596; }
+    .nav_style li a:hover {
+      color: #282828; }
+
+.caption_style {
+  font-size: 42px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.857; }
+
+.h3_style {
+  font-size: 22px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  line-height: 1.636; }
+
+.first-section-list_style {
+  margin-top: 54px; }
+  .first-section-list_style li {
+    list-style-image: url("../images/first section/content/arrow.png");
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 2.25; }
+
+.wrapper__main-content_position {
+  flex-direction: column;
+  margin-left: 12.97229%;
+  margin-top: 70px; }
+
+.wrapper__button_stylized {
+  margin-left: 13.4131%;
+  margin-top: 75px;
+  width: 212px;
+  height: 49px;
+  background-color: #1ab798;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  line-height: 1.8; }
+
+.wrapper__button_flex {
+  justify-content: space-around;
+  align-items: center; }
