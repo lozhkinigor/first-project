@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/first section.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/second section.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/third section.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -163,30 +164,39 @@
         </div>
     </section>
     <section class="third-section">
-        <div class="wrap">
-            <h1>
-                watch the video
-            </h1>
-            <article>
+        <div class=" wrapper_flex wrapper__third-section_size_style">
+            <div class="wrapper_flex wrapper__content_left-side_style">
+                <h1 class="caption__third-section_style">
+                    watch the video
+                </h1>
+                <article class="article__third-section_style">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.
-            </article>
-            <div class="wrap-icons">
-                <div class="apple">
-                    <img src="">
-                </div>
-                <div class="android">
-                    <img src="">
-                </div>
-                <div class="windows">
-                    <img src="">
+                </article>
+                <div class="wrapper_flex wrapper__icons_style">
+                    <div class="wrapper_flex wrapper_circle wrapper_circle_flex">
+                        <a href="https://www.apple.com/">
+                            <img src="images/third section/content/apple.png">
+                        </a>
+                        </div>
+                    <div class="wrapper_flex wrapper_circle wrapper_circle_flex">
+                        <a href="https://www.android.com/">
+                            <img src="images/third section/content/android.png">
+                        </a>
+                        </div>
+                    <div class="wrapper_flex wrapper_circle wrapper_circle_flex">
+                        <a href="https://www.microsoft.com">
+                            <img src="images/third section/content/windows.png">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="for-video">
-                <video src="">
-                    
+            <div>
+                <video width="500" height="307" controls="controls" poster="images/third section/content/video_screen.jpg" class="wrapper__video-content_style">
+                    <source src="video content/video.mp4" type="video/mp4">
+                    <source src="video content/video.webm" type="video/webm">
+                    Your browser does not support the video tag.       
                 </video>
             </div>
-
         </div>
     </section>
 </body>
