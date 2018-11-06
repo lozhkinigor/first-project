@@ -1,0 +1,111 @@
+.wrapper_background-image {
+    background-image: url("../images/first section/background/background-for-first-section.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.first-section_size {
+    width: 1589px;
+    height: 757px;
+}
+.wrapper_flex {
+    display: flex;
+}
+.wrapper__header_flex-center {
+    justify-content: center;
+}
+.header__wrapper_flex {
+    align-items: center;
+    justify-content: space-between;
+}
+.header_sized_style {
+    width: 1241px / 1589px *100%;
+    height: 80px;
+    background: #ffffff;
+    margin-top: 34px;
+    margin-left: -9px;
+    padding: 36px;
+}
+.logo_style {
+    a {
+        text-decoration: none;
+        color: #1ab798;
+        font-size: 30px;
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+        font-weight: 200px;
+        font-weight: bold;
+    }
+}
+.nav_style {
+    margin-top: 3px;
+    font-size: 13px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 36px;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: #969596;
+      }
+      a:hover {
+        color: #282828;
+      }
+    }
+}
+.wrapper__main-content_position {
+    flex-direction: column;
+    margin-left: 206px / 1589px * 100%;
+    margin-top: 171px;
+}
+.caption_style {
+  font-size: 42px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.86;
+}
+.h3_style {
+  font-size: 22px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  line-height: 1.60;
+  letter-spacing: 0.3px;
+}
+.first-section-list_style {
+    margin-top: 32px;
+    margin-left: 11px;
+    li {
+        padding-left: 7px;
+        list-style-image: url("../images/first section/content/arrow.png");
+        font-size: 16px;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        line-height: 2.25;
+    }
+}
+.wrapper__image-phones {
+    margin-top: 110px;
+    margin-left: 203px;
+}
+.wrapper__button_stylized {
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 7px;
+    width: 212px;
+    height: 49px; 
+    background-color: #1ab798;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.8;
+    padding-right: 26px;
+    padding-left: 12px;
+}
+.wrapper__button_flex {
+    justify-content: space-around;
+    align-items: center;
+}
+
